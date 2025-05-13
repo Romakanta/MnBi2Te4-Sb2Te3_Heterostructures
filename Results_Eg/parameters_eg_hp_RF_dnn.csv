@@ -1,0 +1,2 @@
+max_depth,max_features,min_samples_leaf,min_samples_split,n_estimators,train_R2,val_R2,test_R2,train_MAE,val_MAE,test_MAE
+10,40,1,6,50,0.9024866606134537,0.7738000413739944,0.7132589447173552,0.010678311439948933,0.020439841417233477,0.011548277032570544
