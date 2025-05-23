@@ -12,3 +12,7 @@ Descriptors
 In this folder, I have done two things. First, I calculated the lattice mismatch between the (above-mentioned) MnBi2Te4-type monolayers using the 'MBT_CONTCARs' folder and the Sb2Te3-type monolayers using the script 'Find_Lattice_Mismatch.ipynb'. The two stacking layers are considered to construct the heterostructures such that the magnitude of lattice mismatch between the layers doesn't exceed 3%. 891 candidate heterostructures satisfy this criterion.
 Next, I constructed the descriptors for candidate structures using the Mendeleev Python package. The descriptors are constructed by applying some mathematical operations on the atomic properties of the constituent elements in the candidate structures. Three sets of descriptors are constructed. The first set is for predicting the formation energy and the band gap, the second set is for predicting the magnetic properties (preferred magnetic configurations and the total magnetic moment), and the last set is for predicting the lattice mismatch between the two stacking layers.
 
+DFT_heatmap
+============
+This folder contains a script for plotting several heatmaps, such as magnetic states, magnetic moment, and formation energy. The heatmaps are plotted based on the B^i sites of the first layer (MnBi2Te4). Since there are four different B^i sites (Bi, Sb, Sn, Pb), the dataset is converted into four pivot tables and then plotted separately.
+The heatmaps related to the substrate effect analysis are also plotted. Only the case of B^i = Bi has been shown.
